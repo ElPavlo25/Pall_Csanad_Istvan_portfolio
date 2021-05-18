@@ -1,0 +1,128 @@
+body{
+	font-size:16px;
+	font-family: 'Newsreader', serif;
+	font-weight: 600;
+	background-color: #95aba3;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+img{
+	max-width: 100%
+}
+
+.cimkek {
+	padding: 15px;
+	margin: 20px;
+	margin-bottom: 7px;
+	
+	
+}
+.gomb:hover{
+	cursor: pointer;
+	border-color: #4dff00;
+
+}
+.gomb{
+	
+	display:inline-block;
+	padding: 7.5px;
+	border: 1.5px solid;
+	margin-right: 4px;
+	border-color: #9e9e9e;
+	border-radius: 8px;
+	background-color: #c9c9c9;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+.tabla {
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+	box-sizing: border-box;
+	margin: 35px;
+	grid-gap: 7.5rem;
+
+}
+
+.onkep{
+padding: 35px;
+border: 1.5px solid;	
+border-color: #9e9e9e;
+background-color: #c9c9c9;
+border-radius: 40px; 
+text-align: center;
+
+}
+.szoveg{
+padding: 35px;
+border: 1.5px solid;	
+border-color: #9e9e9e;
+background-color: #c9c9c9;
+border-radius: 40px; 
+font-size: 28px;
+}
+h1{font-size: 2.5rem;
+	text-align: center;
+}
+h2{
+	margin-left: 35px;
+	padding: 15px;
+	border: 2px solid;
+	border-color: #9e9e9e;
+	border-radius: 8px;
+	background-color: #c9c9c9;
+	display: inline-block;
+}
+.szoveg2{text-align: center;}
+
+.szoveg3{
+padding: 35px;
+margin: 35px;
+border: 1.5px solid;	
+border-color: #9e9e9e;
+background-color: #c9c9c9;
+border-radius: 8px; 
+font-size: 24px;
+}
+
+.kep{
+padding: 35px;
+border: 1.5px solid;	
+border-color: #9e9e9e;
+background-color: #c9c9c9;
+border-radius: 40px; 
+object-fit: contain;
+width: 100%;
+height: 100%;
+
+}
+.kepterv{
+margin: 35px;
+padding: 35px;
+border: 1.5px solid;	
+border-color: #9e9e9e;
+background-color: #c9c9c9;
+border-radius: 40px; 
+text-align: center;
+}
+h3{
+	margin: 35px;
+	padding: 15px;
+	border: 2px solid;
+	border-color: #9e9e9e;
+	border-radius: 8px;
+	background-color: #c9c9c9;
+	display: block;
+	font-size: 2.5rem;
+	text-align: center;
+}
+.elvisz:hover{
+	text-decoration:underline;
+	color: #1e3a3b; 
+}
